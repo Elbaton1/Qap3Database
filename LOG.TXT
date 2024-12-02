@@ -1,0 +1,25 @@
+SQL shell inputs 
+
+Server [localhost]:
+Database [postgres]:
+Port [5433]: 5432
+Username [postgres]:
+Password for user postgres:
+
+psql (12.20)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help. 
+
+postgres=# CREATE DATABASE taskmanager;
+CREATE DATABASE
+postgres=# \c taskmanager
+You are now connected to database "taskmanager" as user "postgres".
+taskmanager=# CREATE TABLE tasks (
+taskmanager(#   id SERIAL PRIMARY KEY,
+taskmanager(#   description TEXT,
+taskmanager(#   status TEXT
+taskmanager(# );
+CREATE TABLE
+taskmanager=#
