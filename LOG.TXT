@@ -23,3 +23,24 @@ taskmanager(#   status TEXT
 taskmanager(# );
 CREATE TABLE
 taskmanager=#
+
+
+
+Tested endpoints in command prompt:
+
+
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\mobri>curl http://localhost:3000/tasks
+[]
+C:\Users\mobri>curl -X POST -H "Content-Type: application/json" -d "{\"description\":\"Finish homework\",\"status\":\"incomplete\"}" http://localhost:3000/tasks
+{"id":4,"description":"Finish homework","status":"incomplete"}
+
+C:\Users\mobri>curl -X PUT -H "Content-Type: application/json" -d "{\"status\":\"complete\"}" http://localhost:3000/tasks/4
+{"message":"Task updated successfully u da man"}
+
+C:\Users\mobri>curl -X DELETE http://localhost:3000/tasks/4
+{"message":"Task deleted successfully mf"}
+
+C:\Users\mobri>
