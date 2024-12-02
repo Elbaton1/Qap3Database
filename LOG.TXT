@@ -10,7 +10,7 @@ psql (12.20)
 WARNING: Console code page (437) differs from Windows code page (1252)
          8-bit characters might not work correctly. See psql reference
          page "Notes for Windows users" for details.
-Type "help" for help. 
+Type "help" for help.  lol my password is 5348 and it does not approve haha but it worked
 
 postgres=# CREATE DATABASE taskmanager;
 CREATE DATABASE
