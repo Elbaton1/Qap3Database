@@ -1,4 +1,4 @@
-SQL shell inputs 
+#SQL shell inputs 
 
 Server [localhost]:
 Database [postgres]:
@@ -26,8 +26,9 @@ taskmanager=#
 
 
 
-Tested endpoints in command prompt:
 
+
+#Tested endpoints in command prompt:
 
 Microsoft Windows [Version 10.0.22631.4460]
 (c) Microsoft Corporation. All rights reserved.
@@ -44,3 +45,7 @@ C:\Users\mobri>curl -X DELETE http://localhost:3000/tasks/4
 {"message":"Task deleted successfully mf"}
 
 C:\Users\mobri>
+
+
+
+
